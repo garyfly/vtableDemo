@@ -1,0 +1,64 @@
+/* VTablePro 的基础样式：按钮、根布局、空态。组件内部样式各自带在 SFC 里。 */
+
+.vtp-root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e5e6eb;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+.vtp-body {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.vtp-btn {
+  height: 26px;
+  padding: 0 10px;
+  border: 1px solid #e5e6eb;
+  border-radius: 4px;
+  background: #fff;
+  color: #4e5969;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.vtp-btn:hover:not(:disabled) {
+  border-color: #165dff;
+  color: #165dff;
+}
+.vtp-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.vtp-btn.primary {
+  background: #165dff;
+  border-color: #165dff;
+  color: #fff;
+}
+.vtp-btn.primary:hover:not(:disabled) {
+  background: #0e42d2;
+  color: #fff;
+}
+.vtp-btn.ghost {
+  border-color: transparent;
+  background: transparent;
+}
+
+.vtp-empty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #86909c;
+  font-size: 13px;
+  background: rgba(255, 255, 255, 0.9);
+  pointer-events: none;
+}

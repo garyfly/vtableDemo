@@ -1,0 +1,1037 @@
+﻿{
+  "initial": {
+    "panels": [
+      {
+        "entity": "project",
+        "colCount": 13,
+        "rowCount": 2001,
+        "headerLevelCount": 1,
+        "headers": [
+          "行号",
+          "",
+          "项目编号",
+          "项目名称",
+          "负责人",
+          "状态",
+          "优先级",
+          "进度",
+          "预算",
+          "启动日期",
+          "标签",
+          "自动同步",
+          "同步策略"
+        ],
+        "canvas": {
+          "w": 553,
+          "h": 609,
+          "ratio": 0.1536
+        },
+        "rows": 2000,
+        "total": 2000,
+        "selected": 1,
+        "scope": null,
+        "queryMs": 0
+      },
+      {
+        "entity": "task",
+        "colCount": 13,
+        "rowCount": 51,
+        "headerLevelCount": 1,
+        "headers": [
+          "行号",
+          "",
+          "任务编号",
+          "任务标题",
+          "执行人",
+          "阶段",
+          "优先级",
+          "进度",
+          "预估人天",
+          "截止日期",
+          "标签",
+          "需要审批",
+          "审批人"
+        ],
+        "canvas": {
+          "w": 553,
+          "h": 609,
+          "ratio": 0.1457
+        },
+        "rows": 50,
+        "total": 50,
+        "selected": 1,
+        "scope": 1,
+        "queryMs": 0.1
+      },
+      {
+        "entity": "execution",
+        "colCount": 13,
+        "rowCount": 168,
+        "headerLevelCount": 1,
+        "headers": [
+          "行号",
+          "",
+          "明细编号",
+          "摘要",
+          "操作人",
+          "类型",
+          "工时",
+          "质量评分",
+          "发生日期",
+          "标签",
+          "计费",
+          "单价",
+          "金额"
+        ],
+        "canvas": {
+          "w": 554,
+          "h": 609,
+          "ratio": 0.0933
+        },
+        "rows": 167,
+        "total": 167,
+        "selected": 0,
+        "scope": 1,
+        "queryMs": 0
+      }
+    ],
+    "mode": "edit",
+    "dirty": 0,
+    "status": "就绪",
+    "crumbs": [
+      "全部项目",
+      "项目华南数据中台平台化✕",
+      "任务梳理对账任务（信创迁移）✕"
+    ],
+    "overlays": [
+      "none",
+      "none",
+      "none"
+    ],
+    "fatal": false
+  },
+  "full": {
+    "panels": [
+      {
+        "entity": "project",
+        "colCount": 13,
+        "rowCount": 2001,
+        "headerLevelCount": 1,
+        "headers": [
+          "行号",
+          "",
+          "项目编号",
+          "项目名称",
+          "负责人",
+          "状态",
+          "优先级",
+          "进度",
+          "预算",
+          "启动日期",
+          "标签",
+          "自动同步",
+          "同步策略"
+        ],
+        "canvas": {
+          "w": 553,
+          "h": 609,
+          "ratio": 0.1068
+        },
+        "rows": 2000,
+        "total": 2000,
+        "selected": 0,
+        "scope": null,
+        "queryMs": 0
+      },
+      {
+        "entity": "task",
+        "colCount": 13,
+        "rowCount": 100001,
+        "headerLevelCount": 1,
+        "headers": [
+          "行号",
+          "",
+          "任务编号",
+          "任务标题",
+          "执行人",
+          "阶段",
+          "优先级",
+          "进度",
+          "预估人天",
+          "截止日期",
+          "标签",
+          "需要审批",
+          "审批人"
+        ],
+        "canvas": {
+          "w": 553,
+          "h": 609,
+          "ratio": 0.0997
+        },
+        "rows": 100000,
+        "total": 100000,
+        "selected": 0,
+        "scope": 0,
+        "queryMs": 0
+      },
+      {
+        "entity": "execution",
+        "colCount": 13,
+        "rowCount": 40001,
+        "headerLevelCount": 1,
+        "headers": [
+          "行号",
+          "",
+          "明细编号",
+          "摘要",
+          "操作人",
+          "类型",
+          "工时",
+          "质量评分",
+          "发生日期",
+          "标签",
+          "计费",
+          "单价",
+          "金额"
+        ],
+        "canvas": {
+          "w": 554,
+          "h": 609,
+          "ratio": 0.0935
+        },
+        "rows": 40000,
+        "total": 40000,
+        "selected": 0,
+        "scope": 0,
+        "queryMs": 0
+      }
+    ],
+    "mode": "edit",
+    "dirty": 0,
+    "status": "就绪",
+    "crumbs": [
+      "全部项目"
+    ],
+    "overlays": [
+      "none",
+      "none",
+      "none"
+    ],
+    "fatal": false
+  },
+  "selectAll": {
+    "ms": 0,
+    "size": 100000,
+    "rows": 100000,
+    "all": true,
+    "header": "checked"
+  },
+  "filter": {
+    "kw": "压测监控",
+    "before": 100000,
+    "rows": 838,
+    "total": 838,
+    "ms": 166
+  },
+  "filterAndSort": {
+    "before": 838,
+    "blocked": 2201,
+    "onlyBlocked": true,
+    "sorted": true,
+    "restored": 100000
+  },
+  "drilled": {
+    "panels": [
+      {
+        "entity": "project",
+        "colCount": 13,
+        "rowCount": 2001,
+        "headerLevelCount": 1,
+        "headers": [
+          "行号",
+          "",
+          "项目编号",
+          "项目名称",
+          "负责人",
+          "状态",
+          "优先级",
+          "进度",
+          "预算",
+          "启动日期",
+          "标签",
+          "自动同步",
+          "同步策略"
+        ],
+        "canvas": {
+          "w": 553,
+          "h": 609,
+          "ratio": 0.1536
+        },
+        "rows": 2000,
+        "total": 2000,
+        "selected": 1,
+        "scope": null,
+        "queryMs": 0
+      },
+      {
+        "entity": "task",
+        "colCount": 13,
+        "rowCount": 51,
+        "headerLevelCount": 1,
+        "headers": [
+          "行号",
+          "",
+          "任务编号",
+          "任务标题",
+          "执行人",
+          "阶段",
+          "优先级",
+          "进度",
+          "预估人天",
+          "截止日期",
+          "标签",
+          "需要审批",
+          "审批人"
+        ],
+        "canvas": {
+          "w": 553,
+          "h": 609,
+          "ratio": 0.1457
+        },
+        "rows": 50,
+        "total": 50,
+        "selected": 1,
+        "scope": 1,
+        "queryMs": 0
+      },
+      {
+        "entity": "execution",
+        "colCount": 13,
+        "rowCount": 168,
+        "headerLevelCount": 1,
+        "headers": [
+          "行号",
+          "",
+          "明细编号",
+          "摘要",
+          "操作人",
+          "类型",
+          "工时",
+          "质量评分",
+          "发生日期",
+          "标签",
+          "计费",
+          "单价",
+          "金额"
+        ],
+        "canvas": {
+          "w": 554,
+          "h": 609,
+          "ratio": 0.0933
+        },
+        "rows": 167,
+        "total": 167,
+        "selected": 0,
+        "scope": 1,
+        "queryMs": 0
+      }
+    ],
+    "mode": "edit",
+    "dirty": 0,
+    "status": "就绪",
+    "crumbs": [
+      "全部项目",
+      "项目华南数据中台平台化✕",
+      "任务梳理对账任务（信创迁移）✕"
+    ],
+    "overlays": [
+      "none",
+      "none",
+      "none"
+    ],
+    "fatal": false
+  },
+  "linkage": {
+    "id": "TSK#0000001",
+    "before": {
+      "stage": "todo",
+      "progress": 35,
+      "dirty": 0
+    },
+    "after": {
+      "stage": "delivered",
+      "progress": 100,
+      "dirty": 2,
+      "fields": [
+        "stage",
+        "progress"
+      ]
+    },
+    "canUndo": true,
+    "undone": {
+      "stage": "todo",
+      "progress": 35,
+      "dirty": 0
+    }
+  },
+  "modeSwitch": {
+    "view": false,
+    "edit": true
+  },
+  "toolbar": {
+    "筛选": "ok",
+    "列设置": "ok",
+    "联动规则": "ok",
+    "leftover": false,
+    "selected": 2,
+    "buttonDisabled": false,
+    "modal": true,
+    "modalTitle": "批量操作 · 任务",
+    "hasOpRow": true,
+    "hasSummary": true,
+    "closed": true,
+    "help": true
+  },
+  "editors": {
+    "starRow": 1,
+    "starCount": 5,
+    "before": 4,
+    "after": 5,
+    "target": 5,
+    "popClosed": true,
+    "dirty": 1,
+    "undone": 4,
+    "sliderRow": 1,
+    "sliderBefore": 35,
+    "sliderAfter": 35,
+    "sliderPopClosed": true
+  },
+  "clicks": {
+    "cascade": {
+      "rowId": "PRJ#0000002",
+      "beforeTasks": 100000,
+      "err": null,
+      "tasksAfterRowClick": 100000,
+      "checkedAfterRowClick": 0,
+      "cbErr": null,
+      "checkedAfterCheckbox": 1,
+      "checkedId": "PRJ#0000002",
+      "tasksAfterCheckbox": 50,
+      "allBelongToParent": true
+    },
+    "checkbox": {
+      "row": 1,
+      "expectedExec": 12,
+      "err": null,
+      "size": 1,
+      "rowChecked": true,
+      "otherChecked": 0,
+      "execScoped": 12,
+      "execAllBelong": true,
+      "afterSecondClick": 0,
+      "execAfterUncheck": 40000
+    },
+    "switchClick": {
+      "id": "TSK#0000051",
+      "before": {
+        "needApproval": true,
+        "approver": "周若涵",
+        "dirty": 0
+      },
+      "err": null,
+      "after": {
+        "needApproval": false,
+        "approver": null,
+        "dirty": 2
+      },
+      "status": "「需要审批」已切换 → 未启用「需要审批」→ 隐藏且清空「审批人」",
+      "dirtyFields": {
+        "needApproval": true,
+        "approver": true
+      }
+    },
+    "execClick": {
+      "rowId": "EXC#0000001",
+      "err": null,
+      "checked": 0
+    }
+  },
+  "fieldRules": {
+    "approvalOff": {
+      "row": {
+        "needApproval": false
+      },
+      "state": {
+        "taskNo": {
+          "visible": true,
+          "editable": false,
+          "required": false
+        },
+        "title": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "assignee": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "stage": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "priority": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "progress": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "estimate": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "dueDate": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "labels": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "needApproval": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "approver": {
+          "visible": false,
+          "editable": false,
+          "required": false
+        }
+      }
+    },
+    "approvalOn": {
+      "row": {
+        "needApproval": true
+      },
+      "state": {
+        "taskNo": {
+          "visible": true,
+          "editable": false,
+          "required": false
+        },
+        "title": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "assignee": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "stage": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "priority": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "progress": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "estimate": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "dueDate": {
+          "visible": true,
+          "editable": true,
+          "required": true
+        },
+        "labels": {
+          "visible": true,
+          "editable": true,
+          "required": true
+        },
+        "needApproval": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "approver": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        }
+      }
+    },
+    "syncOff": {
+      "row": {
+        "autoSync": false
+      },
+      "state": {
+        "projectNo": {
+          "visible": true,
+          "editable": false,
+          "required": false
+        },
+        "name": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "owner": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "status": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "priority": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "progress": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "budget": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "startDate": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "tags": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "autoSync": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "syncPolicy": {
+          "visible": false,
+          "editable": false,
+          "required": false
+        }
+      }
+    },
+    "delivered": {
+      "row": {
+        "stage": "delivered",
+        "progress": 100
+      },
+      "state": {
+        "taskNo": {
+          "visible": true,
+          "editable": false,
+          "required": false
+        },
+        "title": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "assignee": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "stage": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "priority": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "progress": {
+          "visible": true,
+          "editable": false,
+          "required": false
+        },
+        "estimate": {
+          "visible": true,
+          "editable": false,
+          "required": false
+        },
+        "dueDate": {
+          "visible": true,
+          "editable": true,
+          "required": true
+        },
+        "labels": {
+          "visible": true,
+          "editable": true,
+          "required": true
+        },
+        "needApproval": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "approver": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        }
+      }
+    },
+    "noBillable": {
+      "row": {
+        "billable": false
+      },
+      "state": {
+        "execNo": {
+          "visible": true,
+          "editable": false,
+          "required": false
+        },
+        "summary": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "operator": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "type": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "hours": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "quality": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "occurredAt": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "labels": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "billable": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "rate": {
+          "visible": false,
+          "editable": false,
+          "required": false
+        },
+        "amount": {
+          "visible": false,
+          "editable": false,
+          "required": false
+        }
+      }
+    },
+    "billable": {
+      "row": {
+        "billable": true,
+        "hours": 10.5,
+        "rate": 667,
+        "amount": 7003.5
+      },
+      "state": {
+        "execNo": {
+          "visible": true,
+          "editable": false,
+          "required": false
+        },
+        "summary": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "operator": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "type": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "hours": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "quality": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "occurredAt": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "labels": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "billable": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "rate": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        },
+        "amount": {
+          "visible": true,
+          "editable": true,
+          "required": false
+        }
+      }
+    },
+    "ruleCounts": {
+      "project": 4,
+      "task": 4,
+      "execution": 4
+    }
+  },
+  "layout": [
+    {
+      "entity": "project",
+      "x": 0,
+      "y": 98,
+      "w": 554,
+      "h": 740
+    },
+    {
+      "entity": "task",
+      "x": 554,
+      "y": 98,
+      "w": 554,
+      "h": 740
+    },
+    {
+      "entity": "execution",
+      "x": 1108,
+      "y": 98,
+      "w": 554,
+      "h": 740
+    }
+  ],
+  "columnFilter": {
+    "header": {
+      "popupOpened": true,
+      "popupTitle": "阶段",
+      "sub": "勾选要保留的取值",
+      "items": [
+        {
+          "label": "待启动",
+          "n": "52,267",
+          "on": false
+        },
+        {
+          "label": "开发中",
+          "n": "24,572",
+          "on": false
+        },
+        {
+          "label": "联调中",
+          "n": "13,869",
+          "on": false
+        },
+        {
+          "label": "已交付",
+          "n": "7,091",
+          "on": false
+        },
+        {
+          "label": "已阻塞",
+          "n": "2,201",
+          "on": false
+        }
+      ],
+      "showAllValue": true,
+      "summary": "未选择 = 不筛选"
+    },
+    "apply": {
+      "before": 100000,
+      "after": 52267,
+      "cond": {
+        "field": "stage",
+        "operator": "in",
+        "value": [
+          "todo"
+        ],
+        "id": "col:stage"
+      },
+      "allMatch": true,
+      "popupClosed": true
+    },
+    "reopen": {
+      "pickedBack": true,
+      "summary": "已选 1 / 5"
+    },
+    "cleared": {
+      "cond": null,
+      "rows": 100000
+    },
+    "text": {
+      "ops": [
+        "包含",
+        "不包含",
+        "等于",
+        "不等于",
+        "为空",
+        "不为空"
+      ],
+      "hasInput": true,
+      "hasList": false
+    }
+  },
+  "timingsMs": {
+    "unFocus": 290,
+    "drillDown": {
+      "ms": 223,
+      "taskCleared": true
+    }
+  }
+}
+
+================ 断言 ================
+PASS  页面没有进入兜底错误页
+PASS  三张表都挂载了  —  3
+PASS  [project] canvas 上确实画了内容（首屏）  —  墨迹 15.4% @ 553x609
+PASS  [project] 列标题可读  —  ["行号","","项目编号","项目名称","负责人","状态","优先级","进度","预算","启动日期","标签","自动同步"]
+PASS  [task] canvas 上确实画了内容（首屏）  —  墨迹 14.6% @ 553x609
+PASS  [task] 列标题可读  —  ["行号","","任务编号","任务标题","执行人","阶段","优先级","进度","预估人天","截止日期","标签","需要审批"]
+PASS  [execution] canvas 上确实画了内容（首屏）  —  墨迹 9.3% @ 554x609
+PASS  [execution] 列标题可读  —  ["行号","","明细编号","摘要","操作人","类型","工时","质量评分","发生日期","标签","计费","单价"]
+PASS  每个数据列都由独立小组件承载（≥11 个属性列）  —  12 列
+PASS  首屏：勾选第一个项目后任务表收敛为该项目下的 50 条  —  上级勾选 1 / 任务 50
+PASS  首屏：勾选第一个任务后明细表有数据  —  明细 167
+PASS  清除勾选后任务表拿下全量 10 万行  —  任务 100000
+PASS  清除勾选后明细表拿下全量 4 万行  —  明细 40000
+PASS  VTable 的 rowCount 与数据一致（含表头）  —  rowCount 100001
+PASS  10 万行下 canvas 仍只画可视区且内容正常  —  墨迹 10.0%
+PASS  10 万行 setRecords 在可接受时间内完成  —  290ms
+PASS  列数 = 行号 + 选择列 + 11 个属性  —  13 列
+PASS  再次逐级勾选下钻仍然收敛  —  任务 50 / 明细 167
+PASS  明细表随任务勾选而收窄  —  40000 → 167
+PASS  勾选新项目时，任务表原有的全选状态被清掉（不留指向旧结果集的作用域）  —  223ms
+PASS  勾选多个项目 → 任务表是被勾选项目子行的并集  —  勾选 3 项 / 任务 150，各项目 50+50+50=150
+PASS  上级勾选一变，下级自己的勾选被清空（不会指向已不在结果里的行）  —  残留 0
+PASS  面包屑按勾选显示：多选时是「已勾选 N 项」  —  [{"entity":"project","count":3,"title":"已勾选 3 项"}]
+PASS  10 万行全选后选中数等于结果集大小  —  100000 / 100000
+PASS  全选是 O(1) 模式翻转（<5ms）  —  0ms
+PASS  表头复选框状态为全选  —  header=checked
+PASS  选中的行全部落在当前结果集内  —  选中 0 / 结果集 100000
+PASS  10 万行关键字筛选能显著收窄结果集  —  关键字「压测监控」：100000 → 838
+PASS  10 万行关键字筛选在 1.5s 内  —  166ms
+PASS  条件筛选（阶段 ∈ blocked）生效  —  838 → 2201
+PASS  条件筛选结果全部满足条件
+PASS  排序下推到数据源且结果有序
+PASS  重置查询后行数完整恢复  —  100000 / 100000
+PASS  联动规则自动派生：改为「已交付」→ 进度被锁到 100  —  progress 35 → 100
+PASS  两个字段都被记为未保存修改  —  ["stage","progress"]
+PASS  撤销能同时还原被派生的字段  —  stage todo / progress 35
+PASS  撤销后脏计数回到原值  —  0 → 0
+PASS  查看态不下发编辑器，编辑态才有  —  查看态 false / 编辑态 true
+PASS  切换编辑态不破坏列结构
+PASS  面板「筛选」能正常弹出  —  ok
+PASS  面板「列设置」能正常弹出  —  ok
+PASS  面板「联动规则」能正常弹出  —  ok
+PASS  弹层关闭后不残留 DOM  —  leftover=false
+PASS  有选中行时「批量操作」可用  —  选中 2 行
+PASS  批量操作弹窗结构完整  —  批量操作 · 任务 / 操作项 true / 摘要 true
+PASS  批量操作弹窗可以关闭
+PASS  「使用说明」能弹出
+PASS  编辑器能在真实单元格上启动（星级）  —  第 1 行
+PASS  星级编辑器渲染出 5 颗星  —  5 颗
+PASS  点星即提交，且值经由 VTable 落到 store  —  4 → 5
+PASS  提交后编辑器浮层自动关闭
+PASS  这次编辑被记为 1 处未保存修改  —  1
+PASS  撤销后单元格回到原值  —  4
+PASS  滑块编辑器按 Esc 取消，数据不变  —  35 → 35
+PASS  Esc 后滑块浮层关闭
+PASS  所有点击目标都落在可点击区域内  —  ok
+PASS  点画布上的行不再触发联动（点击只做本行的事）  —  点击后勾选 0 / 任务仍为 100000
+PASS  勾选项目行的复选框 → 任务表收敛为该项目的关联项  —  勾选 1 → 任务 50，全部归属正确：true
+PASS  点画布上的复选框 → 只勾中那一行  —  勾选 1
+PASS  勾选任务 → 明细表按该任务收窄  —  明细 12 / 预期 12
+PASS  再次点击取消勾选 → 明细表松开回到全量  —  勾选 0 / 明细 40000
+PASS  单击开关单元格直接切换  —  true → false
+PASS  开关单击被记为未保存修改  —  0 → 2
+PASS  开关本身和它联动清空的「审批人」都进了未保存列表  —  {"needApproval":true,"approver":true}
+PASS  切换后在状态栏说明触发了哪条联动  —  「需要审批」已切换 → 未启用「需要审批」→ 隐藏且清空「审批人」
+PASS  点末级表的一行既不勾选也不联动  —  {"rowId":"EXC#0000001","err":null,"checked":0}
+PASS  「需要审批」关闭 → 「审批人」被隐藏且只读  —  {"visible":false,"editable":false,"required":false}
+PASS  「需要审批」开启 → 「审批人」恢复可见  —  {"visible":true,"editable":true,"required":false}
+PASS  「自动同步」关闭 → 「同步策略」被隐藏  —  {"visible":false,"editable":false,"required":false}
+PASS  「已交付」→ 「进度」变只读  —  {"visible":true,"editable":false,"required":false}
+PASS  「已交付」→ 「进度」被派生为 100  —  100
+PASS  「不计费」→ 「单价」被隐藏  —  {"visible":false,"editable":false,"required":false}
+PASS  「不计费」→ 「金额」被隐藏  —  {"visible":false,"editable":false,"required":false}
+PASS  「计费」开启 → 「金额」恢复可见  —  {"visible":true,"editable":true,"required":false}
+PASS  「计费」开启 → 金额 = 工时 × 单价  —  7003.5 vs 7003.5
+PASS  三张表都声明了多条联动规则  —  {"project":4,"task":4,"execution":4}
+PASS  mock 模式下不显示降级告警  —  source=mock degraded=false shown=false
+PASS  页面上是三张表  —  3 张
+PASS  三张表左右并排（横着分三屏）  —  project@0,98 554×740 | task@554,98 554×740 | execution@1108,98 554×740
+PASS  三屏等宽  —  554/554/554
+PASS  点表头弹出该列的筛选弹窗  —  阶段 / 勾选要保留的取值
+PASS  弹窗列出该列的去重取值与计数  —  待启动:52,267 开发中:24,572 联调中:13,869 已交付:7,091 已阻塞:2,201
+PASS  取值统计不包含该列自身已生效的筛选（能重新放宽范围）  —  未选择 = 不筛选
+PASS  确定后写入「只筛这一列」的条件  —  {"field":"stage","operator":"in","value":["todo"],"id":"col:stage"}
+PASS  表格只剩符合该值的行  —  100000 → 52267，全部命中：true
+PASS  确定后弹窗自动关闭
+PASS  重新打开弹窗会回填已选中的取值  —  已选 1 / 5
+PASS  「清除本列筛选」恢复全部行  —  null
+PASS  文本列的弹窗走「操作符 + 值」而不是取值列表  —  包含/不包含/等于/不等于/为空/不为空
+PASS  控制台无 error  —  干净
+PASS  无未捕获异常  —  干净
+
+91/91 通过

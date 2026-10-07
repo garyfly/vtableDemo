@@ -1,0 +1,8 @@
+# 换行统一：仓库内一律 LF，免得 Windows/macOS 互相改一次就整文件 diff
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.png binary
+*.jpg binary
+*.woff binary
+*.woff2 binary

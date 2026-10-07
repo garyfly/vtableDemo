@@ -1,0 +1,21 @@
+{
+  "name": "vtable-3table-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "VTable 三表联动 + 10 万级数据 + 属性小组件 + 编辑态/查看态 的完整示例",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 5274",
+    "typecheck": "tsc --noEmit",
+    "probe": "node tools/probe.mjs"
+  },
+  "dependencies": {
+    "@visactor/vtable": "^1.26.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^5.4.20"
+  }
+}

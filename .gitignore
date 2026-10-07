@@ -1,0 +1,22 @@
+# ============ 依赖 ============
+node_modules/
+
+# ============ 构建产物 ============
+dist/
+build/
+*.tsbuildinfo
+
+# ============ 研究资料（第三方 tarball / 解压包，不入库） ============
+_research/
+
+# ============ 工具本地状态（非源码） ============
+.kilo/
+.graphflow-cache/
+graphflow-out/
+.reasonix/
+
+# ============ 缓存 / 日志 / 临时文件 ============
+*.log
+.cache/
+.DS_Store
+Thumbs.db

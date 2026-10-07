@@ -1,0 +1,25 @@
+{
+  "name": "vtable-3table-vue",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "VTable 三表联动 · 10 万级数据 —— Vue 3 + TypeScript 重写版（表格内核仍是 @visactor/vtable）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 5276",
+    "probe": "node tools/probe.mjs",
+    "shot": "node tools/shot.mjs",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@visactor/vtable": "^1.26.8",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.20",
+    "vue-tsc": "^2.1.10"
+  }
+}
